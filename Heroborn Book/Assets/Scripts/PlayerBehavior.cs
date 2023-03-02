@@ -16,6 +16,8 @@ public class PlayerBehavior : MonoBehaviour
     public GameObject bullet;
     public float bulletSpeed = 100f;
     private GameBehavior _gameManager;
+    public delegate void JumpingEvent();
+    public event JumpingEvent playerJump;
 
     void Start()
     {
@@ -29,6 +31,7 @@ public class PlayerBehavior : MonoBehaviour
         if(IsGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
             _rb.AddForce(Vector3.up * jumpVelocity, ForceMode.Impulse);
+            playerJump();
         }
         if(Input.GetMouseButtonDown(0))
         {

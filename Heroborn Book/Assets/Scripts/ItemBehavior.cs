@@ -16,6 +16,7 @@ public class ItemBehavior : MonoBehaviour
             Destroy(this.transform.parent.gameObject);
             Debug.Log("Zoomies! Speed gained!");
             gameManager.Items += 1;
+            gameManager.PrintLootReport();
         }
     }
 }

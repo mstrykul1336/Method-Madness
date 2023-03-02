@@ -68,11 +68,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2266}
     - Class: 114
-      Script: {instanceID: 5836}
+      Script: {instanceID: 5842}
     - Class: 114
-      Script: {instanceID: 6892}
+      Script: {instanceID: 6900}
     - Class: 114
-      Script: {instanceID: 7466}
+      Script: {instanceID: 7474}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -905,4 +905,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Mikinzi/Documents/GitHub/Shoot-Book-Version/Heroborn Book/methodmad
+  playerPath: C:/Users/Mikinzi/Documents/GitHub/Method-Madness/Loot
